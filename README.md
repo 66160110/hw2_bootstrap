@@ -1,1 +1,21 @@
 # hw2_bootstrap
+
+- git commit -m "Initial commit"
+- git commit -m "create file"
+- git commit -m "สร้าง nav menu และเพิ่มรูปที่1"
+- git commit -m "สร้าง style.css"
+- git commit -m "เพิ่มรูปภาพธรรมชาติ"
+- git commit -m "เพิ่มเมืองเก่า"
+- git commit -m "เพิ่มอาหารทะเล"
+- git commit -m "create keyframes slideIn"
+- git commit -m "change code from home to aboutus"
+- git commit -m "เปลี่ยนชื่อ สถานที่ท่องเที่ยว'
+- git commit -m "เพิ่ม footer"
+- git commit -m "เพิ่ม meadia query ของ mobile and ipad'
+- git commit -m "แก้ header layout"
+- git commit -m "เพิ่ม slideshow หน้า home'
+- git commit -m "เพิ่ม สถานที่ท่องเที่ยวยอดนิยม"
+- git commit -m "เพิ่ม contact"
+- git commit -m "แก้ media"
+- git commit -m "screenshot file"
+- git push
