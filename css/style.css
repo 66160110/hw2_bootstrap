@@ -12,28 +12,39 @@ body {
 
 .header{
     background-color: rgb(142, 163, 200);
-    text-align: center;
-    padding: 3rem;
+    padding: 1rem;
     background-image: url("https://t3.ftcdn.net/jpg/01/02/64/28/360_F_102642850_Mca9lTRDH60DQin39YwCF5Jzd15lcdoo.jpg");
     background-size: cover;
     background-position: center;
+    display: grid;
+    grid-template-columns: 100px 1fr 300px 300px ;
+
     
 }
 
+.Logo{
+    width: 100px;
+    align-items: left;
+
+}
+
 h1{
+    margin:2rem;
+    padding-left: 1rem;
     font-size: xx-large;
-    margin: 20px;
     animation: slideIn 0.5s ease-out;
 }
 
 .btn{
+
     padding: 5px 8px; /*ขยายช่องว่างในปุ่ม แกน y แกน x*/
-    margin: 0 1%;
+    margin: 2rem 2%;
     font-size: large;
     border-radius: 25%;
     cursor: pointer; /*เมื่อเมาส์ชี้*/
     border: none;
     animation: slideIn 0.5s ease-out;
+
     
 
 }
@@ -47,6 +58,7 @@ h1{
     border: none;
     animation: slideIn 0.5s ease-out;
 }
+
 
 .picture{
     display: grid;
@@ -103,9 +115,16 @@ h1{
 }
 
 .about-this-page{
-    
     font-size: smaller;
     line-height: 2;
+}
+
+.image-center{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
 }
 
 
