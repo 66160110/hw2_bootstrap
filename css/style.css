@@ -333,7 +333,10 @@ input[type="text"], input[type="email"], textarea {
     }
     .open-modal-btn {
         font-size: 14px; /* ลดขนาดฟอนต์ */
-        padding: 8px 16px; /* ลดขนาดปุ่ม */
+        padding: 8px 16px; /* ลดพื้นที่ปุ่ม */
+        top: 50%; /* ยังคงอยู่ตรงกลาง */
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .modal-content {
@@ -367,8 +370,11 @@ input[type="text"], input[type="email"], textarea {
     }
     
     .open-modal-btn {
-        font-size: 12px; /* ลดขนาดฟอนต์ลงอีกสำหรับโทรศัพท์ */
-        padding: 6px 12px; /* ลดขนาดปุ่มลงอีก */
+        font-size: 12px; /* ลดขนาดฟอนต์เพิ่มเติม */
+        padding: 6px 12px; /* ลดพื้นที่ปุ่มเพิ่มเติม */
+        top: 50%; /* คงตำแหน่งเหมือนเดิม */
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .modal-content {
