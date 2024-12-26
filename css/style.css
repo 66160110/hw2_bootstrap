@@ -87,6 +87,28 @@ h1{
     transform: translateY(0%); 
 }
 
+.footer{
+    background-color: rgb(142, 163, 200);
+    line-height: 3;
+    display: grid;
+    grid-template-areas: 
+    "footer footer footer";
+    grid-template-columns: 1fr 1fr 300px;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.text-mediem{
+    text-align: center;
+}
+
+.about-this-page{
+    
+    font-size: smaller;
+    line-height: 2;
+}
+
+
 @keyframes slideIn {
     from{
         transform: translateX(-100%);
