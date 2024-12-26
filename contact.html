@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class=" header">
+        <img src="https://www.rayong-pao.go.th/web/images/favicon.png" class="Logo"/>
+        <h1>สถานที่ท่องเที่ยวจังหวัดระยอง</h1>
+        <nav class="filter">
+            <button class="btn"><a href="home.html">Home</a></button>
+            <button class="btn"><a href="about_us.html">About</a></button>
+            <button class="btn_active">Contact</button>
+        </nav>
+
+        <div class="search">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+    </header>
+
+    <main>
+        <h3>โปรดติดต่อสอบถามได้ที่นี้</h3>
+
+        <button id="openModalBtn" class="open-modal-btn">ติดต่อเรา</button>
+
+        <!-- Modal -->
+        <div id="contactModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>ติดต่อเรา</h2>
+                <form id="contactForm">
+                    <label for="name">ชื่อ:</label>
+                    <input type="text" id="name" name="name" placeholder="ชื่อของคุณ" required>
+    
+                    <label for="email">อีเมล:</label>
+                    <input type="email" id="email" name="email" placeholder="อีเมลของคุณ" required>
+    
+                    <label for="message">ข้อความ:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="ข้อความของคุณ" required></textarea>
+    
+                    <button type="submit" class="submit-btn">ส่งข้อความ</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="text-left">
+            <h4>Contact Us</h4>
+            <p>Burapha University</p>
+            <p>66160110@go.buu.ac.th</p>
+            <p>+66 123 456 7890</p>
+        </div>
+        <div class="text-medieum">
+            <h4>Follow us</h4>
+            <p>Facebook : 66160110</p>
+            <p>Line : 66160110</p>
+        </div>
+        <div class="text-right">
+            <h4>About this page</h4>
+            <p class=" about-this-page">This page is created for educational purposes only.  This page is not intended for commercial purposes, and no profits are generated from its content. If you find any information helpful, feel free to share it, but please credit the source. Thank you for your understanding
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/modal.js"></script>
+</body>
+</html>
